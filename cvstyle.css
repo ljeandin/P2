@@ -270,4 +270,99 @@ h5
 		color: #FFFFFF;
 		border: 3px solid;
 	}
+
+	#droite
+	{
+		display:flex;
+		flex-direction: column;
+		width: auto;
+		padding: 0;
+	}
+
+	#droite header
+	{
+		text-align: center;
+	}
+
+	#droite header .lignetitre
+	{
+		display:none;
+	}
+	
+	#droite .xs
+	{
+		display:block;
+
+	}
+
+	#droite .xs img
+	{
+		border-radius: 100%;
+	}
+
+	#droite header h2
+	{
+		background-color: #FFFFFF;
+		padding: 0;
+	}
+
+	#droite h2
+	{
+		background-color: #FECA07;
+		color: #FFFFFF;
+		padding: 0 0 0 10%;
+	}
+
+	#droite h2 span
+	{
+		display: none;
+	}
+
+	#droite .container
+	{
+		padding: 0 10%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#droite .left
+	{
+		width:100%;
+	}
+
+	#droite .left h4
+	{
+		margin-bottom: -5%;
+	}
+
+	#droite .left h4 br
+	{
+		display: none;
+	}
+
+	#droite .right
+	{
+		width: 100%;
+	}
+
+	#droite .toggle 
+	{
+		display:none;
+	}
+
+	#droite .ligne
+	{
+		display: none;
+	}
+
+	#droite #recommendations .left
+	{
+		width: 100%;
+	}
+
+	#droite #recommendations .right
+	{
+		width: 100%;
+	}
+
 }
