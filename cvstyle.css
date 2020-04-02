@@ -364,5 +364,23 @@ h5
 	{
 		width: 100%;
 	}
+}
 
+@media (max-width: 425px)
+{
+	body
+	{
+		text-align: center;
+	}
+
+	#droite h2
+	{
+		padding: 0
+	}
+
+	#gauche h2
+	{
+		padding: 0;
+		text-align: center;
+	}
 }
