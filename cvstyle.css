@@ -127,3 +127,108 @@ h5
 	border: 3px solid #404040;
 	border-radius: 100%;
 }
+
+#droite
+{
+	width: 70%;
+	padding: 5%;
+}
+
+#droite header
+{
+	margin: 10% 0 ;
+}
+
+#droite .xs
+{
+	display:none;
+}
+
+#droite header #prenom
+{
+	color:#FECA07;
+	font-family: 'aileronregular';
+	font-style: normal;
+}
+
+#droite header h2
+{
+	margin-top:-40px;
+	color:#555;
+}
+
+#droite h2
+{
+	color:#000;
+}
+
+#droite h2 span
+{
+	padding: 0 3% 0 0;
+}
+
+#droite .right h4
+{
+	margin: -3% 0 -1% 0;
+}
+
+#droite span
+{
+	color:#FECA07;
+}
+
+#droite .lignetitre
+{
+	background-color: #FECA07;
+	height: 2px;
+	width: 80px;
+	margin-top: -20px;
+}
+
+#droite .ligne
+{
+	background-color: #FECA07;
+	height: 2px;
+	margin-bottom: 3%;
+}
+
+#droite .container
+{
+	display: flex;
+}
+
+#droite .toggle
+{
+	width: 5%;
+}
+
+#droite .left
+{
+	width: 32%;
+}
+
+#droite .right
+{
+	width: 60%;
+}
+
+#droite #recommendations h5
+{
+	margin-bottom: -2%;
+}
+
+#droite #recommendations .left
+{
+	width:50%;
+}
+
+#droite #recommendations .right
+{
+	width:50%;
+}
+
+#droite #recommendations em
+{
+	font-style: normal;
+	font-family: 'aileronbold';
+}
