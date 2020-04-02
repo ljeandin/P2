@@ -1,0 +1,129 @@
+@font-face
+{
+	font-family: 'aileronultralight';
+	src: url(fonts/Aileron-UltraLight-webfont.woff);
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aileronthin';
+	src: url('fonts/Aileron-Thin-webfont.woff');
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('fonts/Aileron-Regular-webfont.woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aileronsemibold';
+    src: url('fonts/Aileron-SemiBold-webfont.woff');
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'aileronbold';
+	src: url('fonts/Aileron-Bold-webfont.woff');
+	font-weight: normal;
+}
+
+
+body
+{
+	color:#555666;
+	display: flex;
+	font-family: 'aileronregular';
+	margin:0;
+	font-size: 1.1em;
+}
+
+h1
+{
+	font-size: 4em;
+	font-family: 'aileronthin';
+	font-weight: normal;
+	color: #000;
+}
+
+h2, h3, h4, h5
+{
+	font-family: 'aileronbold';
+	font-weight: normal;
+}
+
+h2
+{
+	font-family: 'aileronsemibold'
+	font-size: 1.8em;
+	
+}
+
+h3
+{
+	font-size: 1.5em;
+}
+
+h5
+{
+	font-size: 1.2em;
+}
+
+#gauche
+{	display: flex;
+	flex-direction: column;
+	background-color:#FECA07;
+	width: 40%;
+	padding: 2% 0 ;
+}
+
+#gauche img
+{
+	border-radius: 100%;
+	border: 5px solid #DEB211;
+}
+
+#gauche #photo
+{
+	align-self: center;
+	padding: 5% 0;
+}
+
+#gauche h2
+{
+	background-color: #404040;
+	color:#FECA07;
+	text-align: center;
+	padding: 2% 0;
+}
+
+#gauche #contact .contenu
+{
+	font-family: 'aileronsemibold';
+}
+
+#gauche .contenu
+{
+	padding: 0 10% 0 10%;
+}
+
+#gauche #loisirs
+{
+	margin-top: auto; 
+}
+
+#gauche #loisirs .contenu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #404040;
+}
+
+#gauche .contenu span
+{
+	padding: 4%;
+	border: 3px solid #404040;
+	border-radius: 100%;
+}
