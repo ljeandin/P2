@@ -232,3 +232,42 @@ h5
 	font-style: normal;
 	font-family: 'aileronbold';
 }
+
+@media (max-width: 768px)
+
+{
+	body
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+	#gauche 
+	{
+		display:flex;
+		flex-direction: column;
+		background-color: #FFFFFF;
+		width: auto;
+	}
+
+	#gauche .lg
+	{
+		display:none;
+	}
+
+	#gauche h2
+	{
+		background-color: #FECA07;
+		color: #FFFFFF;
+		text-align: left;
+		padding: 0 10%;
+	}
+
+	#gauche .contenu span
+	{
+		background-color: #FECA07;
+		color: #FFFFFF;
+		border: 3px solid;
+	}
+}
