@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family: 'aileronultralight';
-	src: url(fonts/Aileron-UltraLight-webfont.woff);
+	src: url('fonts/Aileron-UltraLight-webfont.woff');
 	font-weight: normal;
 }
 
