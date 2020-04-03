@@ -1,31 +1,31 @@
 @font-face
 {
 	font-family: 'aileronultralight';
-	src: url(../fonts/Aileron-UltraLight-webfont.woff);
+	src: url(fonts/Aileron-UltraLight-webfont.woff);
 	font-weight: normal;
 }
 
 @font-face {
     font-family: 'aileronthin';
-	src: url('../fonts/Aileron-Thin-webfont.woff');
+	src: url('fonts/Aileron-Thin-webfont.woff');
 	font-weight: normal;
 }
 
 @font-face {
     font-family: 'aileronregular';
-    src: url('../fonts/Aileron-Regular-webfont.woff');
+    src: url('fonts/Aileron-Regular-webfont.woff');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'aileronsemibold';
-    src: url('../fonts/Aileron-SemiBold-webfont.woff');
+    src: url('fonts/Aileron-SemiBold-webfont.woff');
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'aileronbold';
-	src: url('../fonts/Aileron-Bold-webfont.woff');
+	src: url('fonts/Aileron-Bold-webfont.woff');
 	font-weight: normal;
 }
 
