@@ -55,7 +55,7 @@ h2, h3, h4, h5
 
 h2
 {
-	font-family: 'aileronsemibold'
+	font-family: 'aileronsemibold';
 	font-size: 1.8em;
 	
 }
@@ -84,7 +84,7 @@ h5
 	border: 5px solid #DEB211;
 }
 
-#gauche #photo
+#gauche .lg
 {
 	align-self: center;
 	padding: 5% 0;
