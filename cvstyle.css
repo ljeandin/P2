@@ -55,7 +55,7 @@ h2, h3, h4, h5
 
 h2
 {
-	font-family: 'aileronsemibold'
+	font-family: 'aileronsemibold';
 	font-size: 1.8em;
 	
 }
@@ -199,7 +199,7 @@ h5
 
 #droite .toggle
 {
-	width: 5%;
+	width: 8%;
 }
 
 #droite .left
@@ -231,6 +231,90 @@ h5
 {
 	font-style: normal;
 	font-family: 'aileronbold';
+}
+
+@media (max-width: 1024px)
+
+{
+	#droite
+	{
+		display:flex;
+		flex-direction: column;
+		width: 70%;
+		padding: 5%;
+	}
+
+	#droite header
+	{
+		text-align: center;
+	}
+
+	#droite header .lignetitre
+	{
+		display:none;
+	}
+	
+	#droite .xs
+	{
+		display:none;
+
+	}
+
+	#droite header h2
+	{
+		background-color: #FFFFFF;
+		padding: 0;
+	}
+
+
+	#droite .container
+	{
+		padding: 0 10%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#droite .left
+	{
+		width:100%;
+	}
+
+	#droite .left h4
+	{
+		margin-bottom: -5%;
+	}
+
+	#droite .left h4 br
+	{
+		display: none;
+	}
+
+	#droite .right
+	{
+		width: 100%;
+	}
+
+	#droite .toggle 
+	{
+		display:none;
+	}
+
+	#droite #recommendations .container
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#droite #recommendations .left
+	{
+		width: 45%;
+	}
+
+	#droite #recommendations .right
+	{
+		width: 45%;
+	}
 }
 
 @media (max-width: 768px)
